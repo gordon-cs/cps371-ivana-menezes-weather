@@ -1,10 +1,3 @@
-/* Empty. Add your own CSS if you like */
-
-body {
-  cursor: url('http://ionicframework.com/img/finger.png'), auto;
-}
-
-
 /* ------- SEARCH ----*/
 .searchBar {
 	color: #fff;
@@ -50,7 +43,7 @@ body {
 body {
   cursor: url('http://ionicframework.com/img/finger.png'), auto;
 }
-
+/*Sets the main list of cards*/
 .card {
   background: #DDDDDC;
   width:100% ;
@@ -60,6 +53,7 @@ body {
 #logo{
   margin: 30px 0px;
 }
+/*Sets weather and temperature*/
 .weather-icon {
   font-size: 30px;
 }
