@@ -1,0 +1,99 @@
+<ion-view ng-controller="MainCtrl" >
+  <ion-content delegate-handle="mainScroll">
+
+    <div class="row">
+        <div class="card-top">
+             <ion-card>
+               <h2>Today</h2>
+               <div class="weather-icon ion-ios-thunderstorm-outline"></div>
+               <h2 class="temperature">{{weather.currently.temperature}} º</h2>
+
+               <ion-card-content>
+                 <div class=class="info-right">
+                  <h4>Feels like {{weather.currently.apparentTemperature}}º</h4>
+                  <p>{{weather.currently.summary}} </p></div>
+               </ion-card-content>
+             </ion-card>
+        </div>
+   </div>
+
+    <div class="row">
+
+      <div class="col-25">
+          <div class="card">
+              <ion-card>
+                <h5>Mon</h5>
+                <div class="icon ion-ios-thunderstorm-outline"></div>
+                <div class="mini-temp">{{weather.currently.TemperatureMax}} /{{weather.currently.TemperatureMin}}</div>
+
+                <ion-card-content>
+                  <!--<p>{{weather.currently.summary}}  </p>-->
+                </ion-card-content>
+              </ion-card>
+          </div>
+
+      </div>
+
+      <div class="col-25">
+          <div class="card">
+             <ion-card>
+                <div class="weather-icon ion-ios-partlysunny-outline"> Tue</div>
+                <h2 class="mini-temp">Max{{weather.currently.TemperatureMax}}</h2><t><h4>Min {{weather.currently.TemperatureMin}}</h4></t>
+                <ion-card-content>
+                  <p>{{weather.currently.summary}} </p>
+                </ion-card-content>
+              </ion-card>
+          </div>
+
+      </div>
+
+      <div class="col-25">
+         <div class="card">
+
+            <ion-card>
+              <div class="weather-icon ion-ios-partlysunny-outline"> Wed</div>
+              <h2 class="mini-temp">Max{{weather.currently.TemperatureMax}}</h2><t><h4>Min {{weather.currently.TemperatureMin}}</h4></t>
+              <ion-card-content>
+                <p>{{weather.currently.summary}} </p>
+              </ion-card-content>
+            </ion-card>
+          </div>
+      </div>
+
+        <div class="card">
+
+          <div class="col-25">
+            <ion-card>
+              <div class="weather-icon ion-ios-partlysunny-outline"> Thu</div>
+              <h2 class="mini-temp">Max{{weather.currently.TemperatureMax}}</h2><t><h4>Min {{weather.currently.TemperatureMin}}</h4></t>
+              <ion-card-content>
+                <p>{{weather.currently.summary}} </p>
+              </ion-card-content>
+            </ion-card>
+          </div>
+
+        </div>
+
+       <!-- <div class="card">
+          <ion-card>
+            <div class="weather-icon ion-ios-partlysunny-outline"> Fri</div>
+            <h2 class="mini-temp">Max {{weather.currently.TemperatureMax}}</h2><t><h4>Min {{weather.currently.TemperatureMin}}</h4></t>
+            <ion-card-content>
+              <p>{{weather.currently.summary}} </p>
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+        <div class="card">
+          <ion-card>
+            <div class="weather-icon ion-ios-partlysunny-outline"> Sat</div>
+            <h2 class="mini-temp">Max {{weather.currently.TemperatureMax}}</h2><t><h4>Min {{weather.currently.TemperatureMin}}</h4></t>
+            <ion-card-content>
+              <p>{{weather.currently.summary}} </p>
+            </ion-card-content>
+          </ion-card>
+        </div> -->
+
+    </div>
+
+</ion-view>
